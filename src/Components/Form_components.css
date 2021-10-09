@@ -1,0 +1,60 @@
+#Container {
+    height: 550px;
+    width: 450px;
+    margin: 50px auto;
+    box-shadow: 4px 3px 6px 1px rgb(226, 219, 226), 3px 3px 4px 1px rgb(226, 219, 226);
+    background-image: linear-gradient(to right, lightblue, blue);
+}
+
+#Container #myForm {
+    height: 480px;
+    width: 380px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background-color: white;
+}
+
+#Container #myForm #form_title {
+    font-size: 26px;
+    text-align: center;
+    color: rgb(39, 67, 223);
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    top: 5px;
+}
+
+#Container #myForm ul {
+    list-style-type: none;
+}
+
+#Container #myForm ul .detail-text {
+    font-size: 19px;
+    color: rgb(18, 2, 107);
+    font-weight: 600;
+}
+
+#Container #myForm ul .type {
+    height: 30px;
+    width: 85%;
+    margin: 5px 5px 10px -1px;
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(124, 141, 238);
+    border-radius: 10px;
+    color: rgb(6, 16, 99);
+}
+
+#Container #myForm p #Submit {
+    height: 40px;
+    width: 100px;
+    color: white;
+    position: relative;
+    left: 135px;
+    background-color: darkblue;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
