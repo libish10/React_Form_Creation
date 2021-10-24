@@ -1,13 +1,13 @@
 import React from "react";
-import Form_components from "./Components/Form_components.js";
-import { Listing_Users_Components } from "./Components/Listing_Users_Components.js";
+import FormComponents from "./Components/FormComponents.js";
+import ListingUsersComponents from "./Components/ListingUsersComponents.js";
 
 class App extends React.Component {
     render() {
-        return ( <
-            div > < Form_components / >
-            <
-            Listing_Users_Components / > < /div >
+        return ( <div> 
+                    <FormComponents/>
+                    <ListingUsersComponents/> 
+                </div>
         )
     }
 }
